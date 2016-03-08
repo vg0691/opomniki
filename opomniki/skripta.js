@@ -17,7 +17,7 @@ window.addEventListener('load', function() {
 		document.querySelector("#naziv_opomnika").value = "";
 		document.querySelector("#cas_opomnika").value = "";
 		document.querySelector("#opomniki").innerHTML += " \
-			<div class='opomniki senca rob'> \
+			<div class='opomnik senca rob'> \
             <div class='naziv_opomnika'>" + naziv_opomnika + "</div> \
             <div class='cas_opomnika'> Opomnik čez <span>" + cas_opomnika + "</span> sekund.</div> \
 			</div>";
